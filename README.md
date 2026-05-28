@@ -1,3 +1,4 @@
+
 # TaskMatch — Service Request Board
 
 Built for the GlobalTNA Full-Stack Developer Intern assessment.
@@ -7,16 +8,16 @@ Built for the GlobalTNA Full-Stack Developer Intern assessment.
 - **Backend**: Node.js + Express (separate app)
 - **Database**: MongoDB (Mongoose ODM)
 
-## Project Structure
+Project Structure
 ```
 taskmatch/
 ├── server/   ← Express REST API + MongoDB
 └── client/   ← Next.js App Router frontend
 ```
 
----
 
-## 1. Setup MongoDB
+
+1. Setup MongoDB
 
 **Option A — MongoDB Atlas (free cloud)**
 1. Go to https://www.mongodb.com/atlas and create a free cluster
@@ -27,9 +28,9 @@ taskmatch/
 2. Start it: `mongod`
 3. Connection string: `mongodb://localhost:27017/taskmatch`
 
----
 
-## 2. Run the Backend (Express)
+
+2. Run the Backend (Express)
 
 ```bash
 cd server
@@ -87,3 +88,6 @@ Frontend runs at: **http://localhost:3000**
 1. **Home** (`/`) — Job cards grid with category & status filter dropdowns
 2. **New Job** (`/jobs/new`) — Form with client-side + server-side validation
 3. **Job Detail** (`/jobs/[id]`) — Full details, status dropdown, delete button
+=======
+# cleaning-job-web
+>>>>>>> f7ba4e333d37c9a28cfbeb6bf68fd9f2c12a44d1
